@@ -127,7 +127,8 @@ image_label = Label(
     pady=10,
     width=30,
     height=10,
-    bg=BG_COLOR)
+    bg=BG_COLOR
+)
 image_label.grid(row=1, column=0, columnspan=2, padx=10, pady=10)
 
 text_to_add_label = Label(
