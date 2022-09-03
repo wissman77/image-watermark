@@ -4,8 +4,8 @@ from PIL import Image, ImageTk, ImageDraw, ImageFont
 
 
 # Color and font constants
-BG_COLOR = '#36abcc'
-WHITE = '#ffffff'
+BG_COLOR = '#42855B'
+WHITE = '#FFFFFF'
 FONT = ('Arial', 16)
 YELLOW = (255, 255, 0)
 
