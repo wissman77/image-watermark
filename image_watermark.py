@@ -126,8 +126,8 @@ class ImageWatermark:
             return messagebox.showinfo(title='add watermark',
                                        message='Enter a text to draw on the image')
         if not self.filename:
-            return messagebox.showerror(title='Choose Image',
-                                        message='Choose Image to add a watermark on')
+            return messagebox.showinfo(title='Choose Image',
+                                       message='Choose Image to add a watermark on')
         with Image.open(self.filename) as img:
             img = img.convert('RGB')
             fnt = ImageFont.truetype('Gidole-Regular.ttf', size=120)
